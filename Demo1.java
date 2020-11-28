@@ -32,8 +32,9 @@ class Demo1{
         }
 
         for(IntClass s : list){
-            System.out.print(s.getValue()+"  ");
+            bw.write(s.getValue+" ");
         }
-        System.out.println();
+        bw.write("\n");
+        bw.flush();
     }
 }
